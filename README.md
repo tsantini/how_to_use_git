@@ -37,11 +37,11 @@
 
 `git push -u origin main`
 
-## cloning from a existing repository
+## Cloning from a existing repository
 
 `git clone git@github.com:tsantini/test.git`
 
-## editing the existing repository
+## Editing the existing repository
 
 `nano test.m`
 
@@ -51,7 +51,7 @@
 
 `git push`
 
-## creating a development branch
+## Creating a development branch
 
 `nano test.m`
 
@@ -65,8 +65,8 @@
 
 `git push`
 
-## demostration: pull request in the master from the development branch
+## Demostration: pull request in the master from the development branch
 
-## demostration: using the github on matlab
+## Demostration: using the github on matlab
 
-## demostration: access control and blocking branches for edition
+## Demostration: access control and blocking branches for edition
