@@ -1,6 +1,6 @@
 ## Running a clean fit install of ubuntu
 
-`docker run -it -v /:/mnt/mac ubuntu:latest`
+`docker run -it -v ~/:/mnt/home ubuntu:latest`
 
 ## Installing git    
 
