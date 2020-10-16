@@ -12,7 +12,7 @@
 
 `ssh-keygen -t rsa` -> only run this if you don't have a key already setup, you can check that with the command below
 
-`cat ~/.ssh/id_rsa.pub `
+`cat ~/.ssh/id_rsa.pub`
 
 ## Installing text editor for demonstration purposes
 
@@ -70,5 +70,7 @@
 ## Demostration: using the github on matlab
 
 ## Demostration: access control and blocking branches for edition
+
+## Forking
 
 ## Demostrate: wiki
