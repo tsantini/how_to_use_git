@@ -8,6 +8,14 @@
 
 `apt install git`
 
+`apt git --version`
+
+## configuring git
+
+`git config --global user.name "Name"`
+
+`git config --global user.email "user@example.com"`
+
 ## Generating and copying a ssh key to git website
 
 `ssh-keygen -t rsa` -> only run this if you don't have a key already setup, you can check that with the command below
@@ -22,10 +30,14 @@
 
 `mkdir test_folder`
 
+`cd test_folder`
+
+`git init`
+
 `nano test.m`
 
 ## Create a brand new repository at github website and run this code in the folder of the files of the new repository
-`git init`
+`git status`
 
 `git add test.m`
 
@@ -44,6 +56,8 @@
 ## Editing the existing repository
 
 `nano test.m`
+
+`git diff`
 
 `git add .`
 
@@ -65,7 +79,8 @@
 
 `git push`
 
-## Demostration: pull request in the master from the development branch
+
+## Demostration: brancking and pull request in the master from the development branch
 
 ## Demostration: using the github on matlab
 
@@ -74,3 +89,42 @@
 ## Forking
 
 ## Demostrate: wiki
+
+## Misc useful tools
+
+`.gitignore` -> file that contains the name of the files to the ignored by git, for example `*.o` would ignore all files with `.o` extension
+
+`git mv` -> moves a files
+
+`git rm` -> removes a files
+
+`git pull` -> updates the current repository with the content of the remote repository
+
+`git remote update` -> updates the current repository with the content of the remote repository without automatically merging
+
+`git branch -r` -> list all the branchs in the repository
+
+`git remote show origin` -> shows information about the branches
+
+## conflicts
+
+when there is a conflict, for example, you modified a piece of code that was also modified remotely, it will show up like this when you do `git pull`:
+
+```
+If you have questions, please
+<<<<<<< HEAD
+open an issue
+=======
+ask your question in IRC.
+>>>>>>> branch-a
+```
+
+## reverting changes
+`git log`
+
+`git revert [commit-ID]`
+
+
+
+
+
