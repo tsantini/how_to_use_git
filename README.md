@@ -70,3 +70,5 @@
 ## Demostration: using the github on matlab
 
 ## Demostration: access control and blocking branches for edition
+
+## Demostrate: wiki
