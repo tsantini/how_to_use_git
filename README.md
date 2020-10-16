@@ -4,7 +4,7 @@
 
 ## Installing git    
 
-`apt update`
+`apt update` -> installing in a regular computer, you will need to use `sudo apt ...`
 
 `apt install git`
 
