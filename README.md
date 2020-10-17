@@ -47,6 +47,8 @@
 
 `git remote add origin git@github.com:tsantini/test.git`
 
+`git remote add upstream git@github.com:tsantini/test.git`
+
 `git push -u origin main`
 
 ## Cloning from a existing repository
