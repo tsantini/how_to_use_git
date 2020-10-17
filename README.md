@@ -18,7 +18,7 @@
 
 ## Generating and copying a ssh key to git website
 
-`ssh-keygen -t rsa` -> only run this if you don't have a key already setup, you can check that with the command below
+`ls ~/.ssh/id_rsa.pub` -> if this doesn't return any results, run `ssh-keygen -t rsa`, this will generate your ssh key
 
 `cat ~/.ssh/id_rsa.pub`
 
