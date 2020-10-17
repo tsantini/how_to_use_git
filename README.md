@@ -84,7 +84,7 @@
 
 ## Demostration: brancking and pull request in the master from the development branch, asking for revision
 
-## review of pull request, comments, request of modification, and approval; issue tracker
+## Review of pull request, comments, request of modification, and approval; issue tracker
 
 ## Demostration: using the github on matlab
 
@@ -110,7 +110,7 @@
 
 `git remote show origin` -> shows information about the branches
 
-## conflicts
+## Conflicts
 
 when there is a conflict, for example, you modified a piece of code that was also modified remotely, it will show up like this when you do `git pull`:
 
