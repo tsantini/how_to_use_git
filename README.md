@@ -82,7 +82,7 @@
 
 ## Demostration: brancking and pull request in the master from the development branch, asking for revision
 
-## review of pull request, comments, request of modification, and approval
+## review of pull request, comments, request of modification, and approval; issue tracker
 
 ## Demostration: using the github on matlab
 
