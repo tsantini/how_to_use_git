@@ -43,13 +43,13 @@
 
 `git commit -m "first commit"`
 
-`git branch -M main`
+`git branch -M master`
 
 `git remote add origin git@github.com:tsantini/test.git`
 
 `git remote add upstream git@github.com:tsantini/test.git`
 
-`git push -u origin main`
+`git push -u origin master`
 
 ## Cloning from a existing repository
 
