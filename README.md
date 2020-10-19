@@ -67,7 +67,7 @@ or
 
 `git add .`
 
-`git commit -m 'ading a new comment to the file'`
+`git commit -m 'adding a new comment to the file'`
 
 `git push`
 
