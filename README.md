@@ -1,8 +1,8 @@
-## Running a clean fit install of ubuntu
+## Running a clean fit install of ubuntu (for demonstration purposes, you don't need to run this)
 
 `docker run -it -v ~/:/mnt/home ubuntu:latest`
 
-## Installing git    
+## Installing git on Ubuntu for example
 
 `apt update` -> installing in a regular computer, you will need to use `sudo apt ...`
 
