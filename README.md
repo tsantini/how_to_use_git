@@ -22,6 +22,18 @@
 
 `cat ~/.ssh/id_rsa.pub`
 
+copy the key to your github:
+
+1) open www.github.com
+
+2) click on your profile picure on the top-right corner
+
+3) go to settings -> Ssh and GPG keys -> new SSH key
+
+4) give a name for you key, for example 'home pc' and paste your ssh key on the 'key' field
+
+Now you should be able to pull and push your files without the nedd of password 
+
 ## Installing text editor for demonstration purposes
 
 `apt install nano`
