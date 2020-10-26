@@ -32,7 +32,7 @@ copy the key to your github:
 
 4) give a name for you key, for example 'home pc' and paste your ssh key on the 'key' field
 
-Now you should be able to pull and push your files without the nedd of password 
+Now you should be able to pull and push your files without the need of a password 
 
 ## Installing text editor for demonstration purposes
 
