@@ -12,13 +12,13 @@
 
 ## configuring git
 
-`git config --global user.name "Name"`
+`git config --global user.name "Name"` -> any Name you want
 
-`git config --global user.email "user@example.com"`
+`git config --global user.email "user@example.com"` -> this has to be the email linked with your github account
 
 ## Generating and copying a ssh key to git website
 
-`ls ~/.ssh/id_rsa.pub` -> if this doesn't return any results, run `ssh-keygen -t rsa`, this will generate your ssh key
+`ls ~/.ssh/id_rsa.pub` -> if this doesn't return any results, run `ssh-keygen -t rsa`, this will generate your ssh key. You can run the command and press enter twice to keep the default cofiguration
 
 `cat ~/.ssh/id_rsa.pub`
 
