@@ -148,6 +148,16 @@ ask your question in IRC.
 
 `git revert [commit-ID]`
 
+## updating fork from the original repository
+git fetch git@github.com:original_user/original_repository.git
+git merge FETCH_HEAD 
+git push
+
+## when you made changes before git pull
+git stash
+git pull
+git stash apply
+
 
 
 
