@@ -10,13 +10,17 @@
 
 `apt git --version`
 
-## Configuring git (this step is needed every time you are running git on a new computer or user)
+## Configuring git 
+
+### this step is needed every time you are running git on a new computer or user
 
 `git config --global user.name "Name"` -> any Name you want
 
 `git config --global user.email "user@example.com"` -> this has to be the email linked with your github account
 
-## Generating and copying a ssh key to git website (this step is needed every time you are running git on a new computer or user)
+## Generating and copying a ssh key to git website 
+
+### this step is needed every time you are running git on a new computer or user
 
 `ls ~/.ssh/id_rsa.pub` -> if this doesn't return any results, run `ssh-keygen -t rsa`, this will generate your ssh key. You can run the command and press enter twice to keep the default cofiguration
 
