@@ -22,6 +22,8 @@
 
 ### this step is needed every time you are running git on a new computer or user
 
+First check if you already have a ssh key:
+
 `ls ~/.ssh/id_rsa.pub` -> if this doesn't return any results, run `ssh-keygen -t rsa`, this will generate your ssh key. You can run the command and press enter twice to keep the default cofiguration
 
 `cat ~/.ssh/id_rsa.pub`
