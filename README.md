@@ -162,7 +162,9 @@ git stash apply
 
 ## Configuring git with Matlab on Windowns
 
-1 - install git for windows: https://git-scm.com/download/win
+1 - install git for windows: https://git-scm.com/download/win, check the options "checkout as-is, commit as-is" and use Windows' default console window
+
 2 - on powershell, create a key compatible with windows: `ssh-keygen -t rsa -b 4096 -m PEM` (source https://www.mathworks.com/matlabcentral/answers/494543-why-do-i-receive-an-auth-fail-error-when-interacting-with-a-git-remote-over-ssh-in-matlab-or-why-d)
+
 3 - create an enviroment variable called HOME pointing to your home folder, as shown here: https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html
 
