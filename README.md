@@ -44,7 +44,7 @@ Now you should be able to pull and push your files without the need of a passwor
 
 `apt install nano`
 
-## Edit a random file you want to iniciate the git
+## Edit a random file you want to initiate the git
 
 `mkdir test_folder`
 
