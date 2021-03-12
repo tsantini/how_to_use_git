@@ -57,11 +57,7 @@ Now you should be able to pull and push your files without the need of a passwor
 ## Create a brand new repository at github website and run this code in the folder of the files of the new repository
 `git status`
 
-`git add test.m`
-
-or 
-
-`git add .`
+`git add test.m` or `git add .`
 
 `git commit -m "first commit"`
 
