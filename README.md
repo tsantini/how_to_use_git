@@ -12,7 +12,7 @@
 
 ## Configuring git 
 
-### this step is needed every time you are running git on a new computer or user
+### This step is needed every time you are running git on a new computer or user
 
 `git config --global user.name "Name"` -> any Name you want
 
@@ -20,7 +20,7 @@
 
 ## Generating and copying a ssh key to git website 
 
-### this step is needed every time you are running git on a new computer or user
+### This step is needed every time you are running git on a new computer or user
 
 First check if you already have a ssh key:
 
@@ -141,19 +141,19 @@ ask your question in IRC.
 >>>>>>> branch-a
 ```
 
-## reverting changes
+## Reverting changes
 `git log`
 
 `git revert [commit-ID]`
 
-## updating fork from the original repository
+## Updating fork from the original repository
 `git fetch git@github.com:original_user/original_repository.git`
 
 `git merge FETCH_HEAD`
 
 `git push`
 
-## when you made changes before git pull
+## When you made changes before git pull
 `git stash`
 
 `git pull`
