@@ -100,19 +100,21 @@ Now you should be able to pull and push your files without the need of a passwor
 `git push`
 
 
-## Demostration: brancking and pull request in the master from the development branch, asking for revision
+## Other important tools:
 
-## Review of pull request, comments, request of modification, and approval; issue tracker
+- brancking and pull request in the master from the development branch, asking for revision
 
-## Demostration: using the github on matlab
+- Pull request, comments, request of modification, and approval; issue tracker
 
-## Demostration: access control and blocking branches for edition
+- Using the github on matlab
 
-## Forking
+- Access control and blocking branches for edition
 
-## Demostrate: wiki
+- Forking
 
-## Misc useful tools
+- Wiki
+
+## Misc useful commands
 
 `.gitignore` -> file that contains the name of the files to the ignored by git, for example `*.o` would ignore all files with `.o` extension
 
