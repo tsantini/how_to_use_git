@@ -1,4 +1,4 @@
-## Running a clean fit install of ubuntu (for demonstration purposes, you don't need to run this)
+## Running a clean install of ubuntu (for demonstration purposes, you don't need to run this)
 
 `docker run -it -v ~/:/mnt/home ubuntu:latest`
 
