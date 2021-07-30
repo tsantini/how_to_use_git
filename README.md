@@ -99,6 +99,13 @@ Now you should be able to pull and push your files without the need of a passwor
 
 `git push`
 
+## Updating just one file from the remote repository
+
+```
+git fetch
+git checkout origin/branch_name -- file_name
+```
+
 
 ## Other important tools:
 
