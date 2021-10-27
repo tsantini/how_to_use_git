@@ -137,6 +137,8 @@ git checkout origin/branch_name -- file_name
 
 `git remote show origin` -> shows information about the branches
 
+`git checkout <branch> <file>` --> copy a file from another branch to the current branch
+
 ## Conflicts
 
 when there is a conflict, for example, you modified a piece of code that was also modified remotely, it will show up like this when you do `git pull`:
