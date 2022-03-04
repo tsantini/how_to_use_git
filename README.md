@@ -179,3 +179,14 @@ ask your question in IRC.
 
 3 - create an enviroment variable called HOME pointing to your home folder, as shown here: https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html
 
+## When you want to reverse the master last commit and change the modifications in another brach
+
+`git branch newbranchname`: creates a new branch and stores the current committ
+
+`git reset --hard HEAD^`: reverse to the previous commit in the master branch
+
+`git push origin master --force`: for pushing the last modifications
+
+`git checkout newbranchname`: go to the newly created branch
+
+`git push --set-upstream origin nROIs`: push the new branch
