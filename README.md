@@ -190,3 +190,9 @@ ask your question in IRC.
 `git checkout newbranchname`: go to the newly created branch
 
 `git push --set-upstream origin nROIs`: push the new branch
+
+## creating a comment to ignore a line in the code
+
+- create a file `<project root>/.gitattributes` and add filters to this new file, for example `*.m filter=gitignore`
+- add the filter to the git config: `git config --global filter.gitignore.clean "sed '/gitignore/d'"`
+- do nothing when pulling `git config --global filter.gitignore.smudge cat`
